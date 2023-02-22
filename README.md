@@ -12,7 +12,7 @@ Includes a variety of useful operations including highly parallel maximum intens
 - Navigate to the cloned repository
 - Right-click on `installQuickMIPDisp.sh`, select properties, and under permissions allow executing the file as a program.
 - Open a terminal, and drag and drop `installQuickMIPDisp.sh' to the terminal and hit enter[^2].
-- The command  will be available on every newly opened terminal window[^3}.
+- The command  will be available on every newly opened terminal window[^3].
 
 ### Example Operation
 ```
