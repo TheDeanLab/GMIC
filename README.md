@@ -9,7 +9,7 @@ Includes a variety of useful operations including highly parallel maximum intens
 Note - If you are operating this software on BioHPC, these dependencies are already installed.
 
 ## Installation Directions
-Clone the GMIC repository.
-Double-click on  <installQuickMIPDispStable.sh>
-Choose "run in terminal"
-The command  will be available on every newly opened terminal window
+- Clone the GMIC repository.
+- Navigate to the cloned repository
+- Double-click on  `installQuickMIPDispStable.sh` and choose "run in terminal"
+- The command  will be available on every newly opened terminal window
