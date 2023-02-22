@@ -19,7 +19,10 @@ Includes a variety of useful operations including highly parallel maximum intens
 quickMIPMontage /path/to/your/3D/images
 ```
 
-### Example Operation
+### Brief Descriptions
+- quickMIPMontage - creates a 2D montage of maximum intensity projections of all of the data located within the provided folder.
+- quickMIPMovie - Presents the maximum intensity projections in an interactive viewer, saves maximum intensity projections to `~/gmic-video/test-images/frame.png`, and saves a movie of the maximum intensity projections in an AVI format to `/gmic-video.test.avi`. Movie can be visualized with an appropriate media player, such as [VLC](https://www.videolan.org/vlc/).
+- quickMIPSwap - Often called as an intermediate function. Searches for all of the image files, lists them in the terminal, performs maximum intensity projection on each file, normalizes the intensity, and saves it to a cache directory in `/tmp/gmic-cache/`
 
 [^1]: If you are operating this software on BioHPC, these dependencies are already installed.
 [^2]: If you open the file `installQuickMIPDisp.sh` you can see what Linux commands it is executing. Summarized briefly, the shell script is reating a directory called `gmic-scripts-install` in your HOME directory, copying the necessary files to this directory and changing their permissions to allow executing these files as program, and adding these files to your Linux PATH so that you can call them from a terminal.
